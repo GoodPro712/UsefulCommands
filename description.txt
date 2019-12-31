@@ -1,0 +1,6 @@
+Type in the chat "/gamemode expert" or "/gamemode normal" to change your gamemode
+
+Github:
+Discord:
+
+Mod requested by Nas & coded by GoodPro712
