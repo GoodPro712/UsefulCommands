@@ -22,17 +22,25 @@ namespace GameModeCmd
             if (args.Length > 0)
             {
                 string name = string.Join(" ", args);
-                if (name == "expert")
+                if (name == "expert" && Main.expertMode == false)
                 {
                     Main.expertMode = true;
                 }
-                else if (name == "normal")
+                else if (name == "expert" && Main.expertMode == true)
+                {
+                    Main.NewText("ERROR: Your world is already in Expert Mode!");
+                }
+                else if (name == "normal" && Main.expertMode == true)
                 {
                     Main.expertMode = false;
                 }
+                else if (name == "normal" && Main.expertMode == false)
+                {
+                    Main.NewText("ERROR: Your world is already in Normal Mode!");
+                }
                 else
                 {
-                    Main.NewText("ERROR: You need to use either normal or expert for the command arguments");
+                    Main.NewText("ERROR: You need to use either normal or expert for the command arguments!");
                 }
             }
             else
