@@ -1,4 +1,4 @@
-displayName = Game Mode Command
-author = GoodPro712
-version = 1.1
+displayName = Useful Commands
+author = GoodPro712, Steviegt6
+version = 1.2
 homepage = https://github.com/GoodPro712/GameModeCmd
