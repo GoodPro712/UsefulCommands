@@ -19,17 +19,9 @@ namespace GameModeCmd
                 {
                     Main.expertMode = true;
                 }
-                else if (name == "expert" && Main.expertMode == true)
-                {
-                    Main.NewText("ERROR: Your world is already in Expert Mode!");
-                }
                 else if (name == "normal" && Main.expertMode == true)
                 {
                     Main.expertMode = false;
-                }
-                else if (name == "normal" && Main.expertMode == false)
-                {
-                    Main.NewText("ERROR: Your world is already in Normal Mode!");
                 }
                 else
                 {
