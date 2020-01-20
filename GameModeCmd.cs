@@ -5,8 +5,5 @@ namespace GameModeCmd
 {
     public class GameModeCmd : Mod
     {
-        public GameModeCmd()
-        {
-        }
     }
 }
