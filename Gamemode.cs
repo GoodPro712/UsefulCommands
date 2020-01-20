@@ -15,12 +15,12 @@ namespace GameModeCmd
             if (args.Length > 0)
             {
                 string name = string.Join(" ", args);
-                if (name == "expert" && Main.expertMode == false)
+                if (name == "expert")
                 {
                     Main.expertMode = true;
                     Main.NewText("SUCCESS: Expert Mode is now enabled!");
                 }
-                else if (name == "normal" && Main.expertMode == true)
+                else if (name == "normal")
                 {
                     Main.expertMode = false;
                     Main.NewText("SUCCESS: Expert Mode is now disabled!");
