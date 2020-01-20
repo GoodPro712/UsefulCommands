@@ -1,4 +1,4 @@
-displayName = Game Mode Command
+displayName = Useful Commands
 author = GoodPro712
 version = 1.1
 homepage = https://github.com/GoodPro712/GameModeCmd
