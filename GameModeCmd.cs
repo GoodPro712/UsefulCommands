@@ -45,7 +45,7 @@ namespace GameModeCmd
             }
             else
             {
-                Main.NewText("ERROR: You have not specified a game mode.");
+                Main.NewText("ERROR: You have not specified a game mode!");
             }
         }
     }
