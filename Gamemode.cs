@@ -18,10 +18,12 @@ namespace GameModeCmd
                 if (name == "expert" && Main.expertMode == false)
                 {
                     Main.expertMode = true;
+                    Main.NewText("SUCCESS: Expert Mode is now enabled!");
                 }
                 else if (name == "normal" && Main.expertMode == true)
                 {
                     Main.expertMode = false;
+                    Main.NewText("SUCCESS: Expert Mode is now disabled!");
                 }
                 else
                 {
