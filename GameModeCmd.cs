@@ -14,8 +14,8 @@ namespace GameModeCmd
     {
         public override CommandType Type => CommandType.Chat | CommandType.World;
         public override string Command => "gamemode";
-        public override string Usage => "/gamemode expert or normal (under 20 characters)";
-        public override string Description => "Changes your gamemode";
+        public override string Usage => "/gamemode <expert/normal>";
+        public override string Description => "Changes your gamemode.";
 
         public override void Action(CommandCaller caller, string input, string[] args)
         {
