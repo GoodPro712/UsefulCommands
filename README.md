@@ -1,4 +1,4 @@
-# GameModeCmd
+# UsefulCommands
 Useful Commands adds multiple different quality-of-life commands to the game.
 
 Github: https://github.com/GoodPro712/UsefulCommands
